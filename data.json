@@ -1,0 +1,133 @@
+
+Text
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 732656679,
+      "message": {
+        "message_id": 135,
+        "from": {
+          "id": 43804645,
+          "first_name": "DevPGSV",
+          "username": "DevPGSV"
+        },
+        "chat": {
+          "id": 43804645,
+          "first_name": "DevPGSV",
+          "username": "DevPGSV",
+          "type": "private"
+        },
+        "date": 1479123296,
+        "text": "test"
+      }
+    }
+  ]
+}
+
+Sticker
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 732656680,
+      "message": {
+        "message_id": 136,
+        "from": {
+          "id": 43804645,
+          "first_name": "DevPGSV",
+          "username": "DevPGSV"
+        },
+        "chat": {
+          "id": 43804645,
+          "first_name": "DevPGSV",
+          "username": "DevPGSV",
+          "type": "private"
+        },
+        "date": 1479123349,
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "\ud83d\ude01",
+          "thumb": {
+            "file_id": "AAQEABO3r2EwAASJ6eqBwVA2J40pAAIC",
+            "file_size": 4310,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "BQADBAADuQADNg0gBipyMcBfus_OAg",
+          "file_size": 20330
+        }
+      }
+    }
+  ]
+}
+
+File
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 732656681,
+      "message": {
+        "message_id": 137,
+        "from": {
+          "id": 43804645,
+          "first_name": "DevPGSV",
+          "username": "DevPGSV"
+        },
+        "chat": {
+          "id": 43804645,
+          "first_name": "DevPGSV",
+          "username": "DevPGSV",
+          "type": "private"
+        },
+        "date": 1479123375,
+        "document": {
+          "file_name": "40616.c",
+          "mime_type": "text\/x-csrc",
+          "file_id": "BQADBAAD7AwAAuVnnAJgziTuexgCIwI",
+          "file_size": 4443
+        }
+      }
+    }
+  ]
+}
+
+Gif
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 732656682,
+      "message": {
+        "message_id": 138,
+        "from": {
+          "id": 43804645,
+          "first_name": "DevPGSV",
+          "username": "DevPGSV"
+        },
+        "chat": {
+          "id": 43804645,
+          "first_name": "DevPGSV",
+          "username": "DevPGSV",
+          "type": "private"
+        },
+        "date": 1479123395,
+        "document": {
+          "file_name": "aGx1p8w_460sv.mp4",
+          "mime_type": "video\/mp4",
+          "thumb": {
+            "file_id": "AAQEABOfkRwZAAScn-giiWmafZIGAAIC",
+            "file_size": 2663,
+            "width": 90,
+            "height": 90
+          },
+          "file_id": "BQADBAADygMAAugbAAELOsTs9Z59OxkC",
+          "file_size": 607771
+        }
+      }
+    }
+  ]
+}
+
