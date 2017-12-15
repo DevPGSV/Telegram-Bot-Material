@@ -77,15 +77,14 @@ def send_message(chat_id, text, disable_web_page_preview=False, reply_to_message
         "text": text,
         "disable_web_page_preview": disable_web_page_preview,
         "reply_to_message_id": reply_to_message_id,
-        "reply_markup": json.dumps(reply_markup),
-        'parse_mode': 'HTML',
+        "reply_markup": reply_markup,
+        "parse_mode": 'HTML',
     })
     run_event(response)
 
 
 def api_request(method, parameters={}, files=None):
-    url = "https://api.telegram.org/bot{token}/{method}" \
-        .format(token=BOT_TOKEN, method=method)
+    url = "https://api.telegram.org/bot{token}/{method}".format(token=BOT_TOKEN, method=method)
 
     http_method = 'get'
 
