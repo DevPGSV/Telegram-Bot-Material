@@ -1,5 +1,5 @@
-var moment = require('moment');
-const TelegramBot = require('node-telegram-bot-api');
+const moment = require('moment'),
+      TelegramBot = require('node-telegram-bot-api');
 
 const token = '123456789:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA';
 
